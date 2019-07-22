@@ -1,0 +1,18 @@
+
+server:
+  port: 8001
+  
+spring:
+  application:
+    name: ProcessServer
+    
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
+logging:
+    level:
+      com:
+        netflix:
+          eureka: OFF
